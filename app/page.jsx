@@ -69,7 +69,7 @@ export default function LandingPage() {
           منصة تعليمية تفاعلية تجمع كل دروس الثانوية العامة في مكان واحد، لتسهيل التعلم وتحسين التركيز.
         </p>
         <Link
-          href="/"
+          href="#subjects"
           style={{
             padding: "15px 30px",
             backgroundColor: "#ff4500",
@@ -87,7 +87,7 @@ export default function LandingPage() {
       </div>
 
       {/* Subjects Section */}
-      <div style={{ padding: "40px 20px", maxWidth: "1000px", margin: "0 auto" }}>
+      <div id="subjects" style={{ padding: "40px 20px", maxWidth: "1000px", margin: "0 auto" }}>
         <h2 style={{ fontSize: "2rem", marginBottom: "30px", textAlign: "center", fontWeight: "700" }}>
           اختر المادة
         </h2>
